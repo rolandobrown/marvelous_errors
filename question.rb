@@ -45,7 +45,7 @@ def check(question)
   which_wins("heart", "marvelous errors")
 end
 
-def question?(question)
+def question(question)
   check(question)  
   if check = true
     "TRUE"
@@ -54,4 +54,4 @@ def question?(question)
   end
 end
 
-question?("Are hearts greater than marvelous errors?")
+question("Are hearts greater than marvelous errors?")
