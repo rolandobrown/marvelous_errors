@@ -29,7 +29,8 @@ and brought tears to my eyes.
 Last night as I slept,
 I dreamt—marvelous error!—
 that it was God I had
-here inside my heart."
+here inside my heart.
+-Antonio Machado"
 
 def count_strings(poem, string)
   poem.scan(/(?=#{string})/).count
